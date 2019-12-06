@@ -1,0 +1,123 @@
+body{
+    background-image: url(../IMG/fundo_2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+} 
+/* Navbar */
+#icone{
+    height: 47px;
+    width: 49px;
+}
+#logo{
+    height: 65px;
+    width: 60px;
+}
+#nav_color{
+    background-color: black;
+    
+}
+#text_nav{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Be Vietnam', sans-serif;
+}
+#text_nav:hover{
+    color: rgb(198, 198, 221);
+}
+/* ------------ */
+
+#Abertura_Comanda{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+/* ------------------------ */
+
+#divcomanda{
+    background-color: #474e54b8;
+    border-radius: 15px;
+    opacity: 0.95;
+    
+}
+
+.IDs{
+    display: block;
+    width: 95%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color;
+}
+
+.IDs_col{
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 30%;
+}
+
+#comandas2{
+    border-radius: 6px;
+    width: 95%;
+    height: 105%;
+    margin-top: -2px;
+}
+.OBS{
+    margin-top: 10%;
+    display: block;
+    width: 24rem;
+    height: 100px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#divextrato{
+    margin-right: 12px;
+    border-radius:10px;
+    width: 330px;
+}
+
+.fixed_header{
+    width: 330px;
+    table-layout: fixed;;
+    border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  display:block;
+  overflow: auto;
+  height: 300px;
+}
+
+.fixed_header thead tr {
+   display: block;
+}
+
+.fixed_header thead {
+  background: black;
+  color:#fff;
+}
+
+.fixed_header th, .fixed_header td {
+  padding: 15px;
+  text-align: center;
+  width: 600px;
+}

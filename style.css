@@ -1,0 +1,126 @@
+body{
+    padding: 5px;
+    background-image: url("IMG/fundo_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.card{
+    opacity: 0.94;
+    margin: 50px;
+    border-radius: 25px;
+    left: 20px;
+}
+
+.logo {
+    position: fixed;
+    top: auto;
+    width: 114;
+    height: 119;
+    left: 8px;
+}
+
+.user {
+    position: fixed;
+    top: auto;
+    width: 60px;
+    height: 60px;
+    right: 40px;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.centro_card{
+    width: 100%;
+}
+
+
+
+
+#dinheiro{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#abertura_comandas{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mapa_comandas{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pedidos{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cardapio_jogos{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    height: 105px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bebida{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#estoque{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#usuarios{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#historico{
+    height: 90px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}

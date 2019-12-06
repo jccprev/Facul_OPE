@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cardapio de Comidas</title>
+
+    <!-- Bootstrap 4.3.1 -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../Bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../Bootstrap/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav_color">
+
+    <a class="navbar-brand" href="../index.html">
+      <img id="logo" src="../IMG/Logo(Preto).png" alt="Logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+        <span><img id="icone" src="../IMG/expansor.png" alt="dropdown-menu"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      
+      
+      <ul class="navbar-nav mr-auto">  
+        <li>
+          <a class="nav-link" id="text_nav" href="#">Caixa</a>
+        </li>
+
+        <li>
+          <a class="nav-link" id="text_nav" href="../Tela Pedidos/index.html">Pedidos</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Comandas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tela Abertura Comanda/index.html">Abrir Comandas</a>
+            <a class="dropdown-item" href="../Tela Mapa Comandas/index.html">Mapa de Comandas</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cardapios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tabela de jogos/index.html">Cardapio de Jogos</a>
+            <a class="dropdown-item" href="../Tabela de bebidas/index.html">Cardapio de Bebidas</a>
+            <a class="dropdown-item" href="../Tabela de comida/index.html">Cardapio de Comidas</a>
+          </div>
+        </li> 
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Gerenciamento
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tela de gerenciamento de estoque/index.html">Estoque</a>
+            <a class="dropdown-item" href="#">Usuarios</a>
+            <a class="dropdown-item" href="#">Historicos de Vendas</a>
+          </div>
+        </li> 
+
+      </ul>
+
+      
+      <span><a href="#" id="text_nav">Sair</a></span>
+
+    </div>
+  </nav>
+
+
+      <br>
+      <h1 class="display-4" id="cardapio_de_comidas">Cardapio De Comidas</h1>
+      <hr>
+      <br>
+
+    <div id="Div_tamanho_t">
+
+
+      <h2 id="cardapio_de_comidas">Porções</h2>
+
+            <table class="table table-bordered table-dark">
+                    <thead class="meio">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Batata Frita Média</td>
+                        <td>---</td>
+                        <td>R$19,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Batata Frita Grande</td>
+                        <td>---</td>
+                        <td>R$30,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Batata Rustica Média</td>
+                        <td></td>
+                        <td>R$22,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Batata Rustica Grande</td>
+                        <td>---</td>
+                        <td>R$34,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Polenta</td>
+                        <td>---</td>
+                        <td>R$18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Mandioca</td>
+                        <td>---</td>
+                        <td>R$18,00</td>
+                      </tr>  
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Onion Rings</td>
+                        <td>Anéis de cebola fritos</td>
+                        <td>R$18,00</td>
+                      </tr>  
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Calabresa</td>
+                        <td>Calabresa acebolada feitas na chapa</td>
+                        <td>R$18,00</td>
+                      </tr>  
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Frango Empanado</td>
+                        <td>20 pedaços de frango empanado e frito</td>
+                        <td>R$20,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Provolone Empanado</td>
+                        <td>Cubos de provolone empanados e fritos</td>
+                        <td>R$22,00</td>
+                      </tr>  
+                      <tr>
+                        <th scope="row">11</th>
+                        <td>Salgadinho</td>
+                        <td>16 Salgados variados (Verificar sabores disponíveis)</td>
+                        <td>R$18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">12</th>
+                        <td>Cheese Sticks</td>
+                        <td>20 palitos fritos recheados com mussarela</td>
+                        <td>R$25,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <br>
+                  <br>
+
+                  <h2 id="cardapio_de_comidas">Lanches</h2>
+
+            <table class="table table-bordered table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>X-Burguer</td>
+                        <td>Hambúrguer de 120gcom queijo</td>
+                        <td>R$15,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>X-Salada</td>
+                        <td>X-Burguer com alface e tomate</td>
+                        <td>R$17,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>X-Bacon</td>
+                        <td>X-Burguer com fatias crocante de bacon</td>
+                        <td>R$18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>X-egg</td>
+                        <td>X-Burguer com ovo frito</td>
+                        <td>R$17,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>X-Tudo</td>
+                        <td>X-Burguer com fatias de bacon, ovo frito, alface e tomate</td>
+                        <td>R$20,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Onion Bring Bacon</td>
+                        <td>X-Burguer com fatias de bacon e anéis de cebola fritos</td>
+                        <td>R$19,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Hambúrguer Recheado</td>
+                        <td>Hambúrguer de 180g recheado com cheddar ou catupiry, coberto com queijo e salada</td>
+                        <td>R$22,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>X-Frango</td>
+                        <td>Filé de frango com catupiry servido no pão francês</td>
+                        <td>R$16,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>X-Costela</td>
+                        <td>Costela de porco desfiado com catupiry servido no pão francês</td>
+                        <td>R$19,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Chaddar comcebola caramelizada</td>
+                        <td>Hambúrguer de 120g com cheddar e cebola caramelizada</td>
+                        <td>R$19,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">11</th>
+                        <td>Vegetariano</td>
+                        <td>Hambúrguer vegetariano de proteína de soja com alface e tomate</td>
+                        <td>R$17,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">12</th>
+                        <td>Smaug</td>
+                        <td>Hambúrguer, queijo prato, costela desfiada com catupiry, bacon, ovo, alface, tomate, onion rings</td>
+                        <td>R$28,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <br>
+                  <br>
+                  <h2 id="cardapio_de_comidas">Adicionais</h2>
+
+            <table class="table table-bordered table-dark">
+                    <thead class="meio">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Bacon</td>
+                        <td>---</td>
+                        <td>R$4,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Ovo Frito</td>
+                        <td>---</td>
+                        <td>R$2,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Hambúrguer</td>
+                        <td>---</td>
+                        <td>R$6,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Maionese</td>
+                        <td>---</td>
+                        <td>R$2,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Cheddar</td>
+                        <td>---</td>
+                        <td>R$4,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Catupiry</td>
+                        <td>---</td>
+                        <td>R$4,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Mussarela</td>
+                        <td>---</td>
+                        <td>R$4,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <br>
+                  <br>
+                  <h2 id="cardapio_de_comidas">Sobremesas</h2>
+
+            <table class="table table-bordered table-dark">
+                    <thead class="meio">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Bolo no pote</td>
+                        <td>(Verificar sabores disponíveis)</td>
+                        <td>R$8,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Sorvete</td>
+                        <td>Taça com 3 bolas (Verificar sabores disponíveis)</td>
+                        <td>R$12,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Petit Gâteau</td>
+                        <td>---</td>
+                        <td>R$19,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+    
+    </div>
+    <br>
+    <br>
+
+</body>
+</html> 

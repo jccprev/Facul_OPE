@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cardapio de Jogos</title>
+
+  <!-- Bootstrap 4.3.1 -->
+  <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="../Bootstrap/js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../Bootstrap/js/bootstrap.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav_color">
+
+    <a class="navbar-brand" href="../index.html">
+      <img id="logo" src="../IMG/Logo(Preto).png" alt="Logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Alterna navegação">
+      <span><img id="icone" src="../IMG/expansor.png" alt="dropdown-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a class="nav-link" id="text_nav" href="../Tela Caixa/index.html">Caixa</a>
+        </li>
+
+        <li>
+          <a class="nav-link" id="text_nav" href="../Tela Pedidos/index.html">Pedidos</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Comandas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tela Abertura Comanda/index.html">Abrir Comandas</a>
+            <a class="dropdown-item" href="../Tela Mapa Comandas/index.html">Mapa de Comandas</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Cardapios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tabela de jogos/index.html">Cardapio de Jogos</a>
+            <a class="dropdown-item" href="../Tabela de bebidas/index.html">Cardapio de Bebidas</a>
+            <a class="dropdown-item" href="../Tabela de comida/index.html">Cardapio de Comidas</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Gerenciamento
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tela de gerenciamento de estoque/index.html">Estoque</a>
+            <a class="dropdown-item" href="#">Usuarios</a>
+            <a class="dropdown-item" href="#">Historicos de Vendas</a>
+          </div>
+        </li>
+
+      </ul>
+
+
+      <span><a href="#" id="text_nav">Sair</a></span>
+
+    </div>
+  </nav>
+
+
+  <br>
+  <h1 class="display-4" id="cardapio_de_jogos">Cardapio De Jogos</h1>
+  <hr>
+  <br>
+  <br>
+
+
+  <div id="Div_tamanho_t">
+
+    <table class="table table-bordered table-dark tb_jogos">
+      <thead class="meio">
+        <tr>
+          <th scope="col" width="5%">#</th>
+          <th scope="col" width="15%">Jogo</th>
+          <th scope="col">Descrição</th>
+          <th scope="col" width="13%">QT Jogadores</th>
+          <th scope="col" width="5%">Disponibilidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>7 wonders</td>
+          <td>Em essência 7 Wonders é um jogo de cartas e desenvolvimento.</td>
+          <td>2-7</td>
+          <td>Disponível</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Academia</td>
+          <td> É um jogo para jogadores demonstrarem a habilidade de blefar para convencer seus adversários de que sua resposta é a correta!</td>
+          <td>2-6</td>
+          <td>Disponível</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Cara a Cara</td>
+          <td>@É loiro? Tem olhos castanhos? A cada rodada uma pergunta diferente, vence aquele que tiver a melhor estratégia para descobrir a carta sorteada pelo outro jogador!</td>
+          <td>2</td>
+          <td>Indisponível</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Boi Bebum</td>
+          <td>Boi Bebum é um jogo tático, porém simples e com um ótimo fluxo de jogo!</td>
+          <td>3-5</td>
+          <td>Disponível</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Detetive</td>
+          <td>O jogo é desenvolvido sobre um tabuleiro que simula uma mansão, com vários cômodos e vários objetos. O objetivo é descobrir qual dentre seis suspeitos (cujos nomes são ou lembram cores específicas), qual dentre seis armas e qual dentre nove aposentos estão envolvidos em um crime de assassinato.</td>
+          <td>3-8</td>
+          <td>Indisponível</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <br>
+  <br>
+
+</body>
+
+</html>

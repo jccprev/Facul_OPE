@@ -1,0 +1,70 @@
+/* body{
+    background-image: url(../IMG/fundo_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+} */
+
+/* Navbar */
+#icone{
+    height: 47px;
+    width: 49px;
+}
+#logo{
+    height: 65px;
+    width: 60px;
+}
+#nav_color{
+    background-color: black; 
+}
+#text_nav{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Be Vietnam', sans-serif;
+}
+#text_nav:hover{
+    color: rgb(198, 198, 221);
+}
+/* ------------ */
+
+#Pedidos{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+hr{
+    background-color: rgba(0, 0, 0, 0.151);
+    width: 70%;
+}
+
+
+#Div_tamanho_t{ 
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tb_titulo_card{
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#espaco{
+    width: 70px;
+    text-align: center;
+}
+
+.auto_card{
+    flex: 0 0 50%;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    max-width: 300px;
+}

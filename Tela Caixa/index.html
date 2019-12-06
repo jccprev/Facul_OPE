@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Caixa</title>
+
+    <!-- Bootstrap 4.3.1 -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../Bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../Bootstrap/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav_color">
+
+        <a class="navbar-brand" href="../index.html">
+            <img id="logo" src="../IMG/Logo(Preto).png" alt="Logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span><img id="icone" src="../IMG/expansor.png" alt="dropdown-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+            <ul class="navbar-nav mr-auto">
+                <li>
+                    <a class="nav-link" id="text_nav" href="../Tela Caixa/index.html">Caixa</a>
+                </li>
+
+                <li>
+                    <a class="nav-link" id="text_nav" href="../Tela Pedidos/index.html">Pedidos</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Comandas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Tela Abertura Comanda/index.html">Abrir Comandas</a>
+                        <a class="dropdown-item" href="../Tela Mapa Comandas/index.html">Mapa de Comandas</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Cardapios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Tabela de jogos/index.html">Cardapio de Jogos</a>
+                        <a class="dropdown-item" href="../Tabela de bebidas/index.html">Cardapio de Bebidas</a>
+                        <a class="dropdown-item" href="../Tabela de comida/index.html">Cardapio de Comidas</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Gerenciamento
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Tela de gerenciamento de estoque/index.html">Estoque</a>
+                        <a class="dropdown-item" href="#">Usuarios</a>
+                        <a class="dropdown-item" href="#">Historicos de Vendas</a>
+                    </div>
+                </li>
+
+            </ul>
+
+
+            <span><a href="#" id="text_nav">Sair</a></span>
+
+        </div>
+    </nav>
+
+    <br>
+    <h1 class="display-4" id="Caixa">Caixa</h1>
+    <hr id="jaca">
+
+    <div id="div_caixa" style="background-color: whitesmoke; text-align: center">
+        <br>
+
+        <div class="group">
+
+            <div id="divBusca">
+
+                <img id="search" src="../IMG/search3.png" alt="Buscar..." />
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+                <button id="btnBusca">Buscar</button>
+            </div>
+
+            <div id="divmesa">
+                <input id="mesa" type="text" name="mesa" autocomplete="on" placeholder="Mesa">
+            </div>
+
+        </div>
+
+        <div class="group">
+            <div id="divinformacoes" style="background-color: #363636">
+                <div>
+                    <input id="nome" type="text" name="nome" autocomplete="on" placeholder="Nome">
+                    <input id="sobrenome" type="text" name="sobrenome" autocomplete="on" placeholder="Sobrenome">
+                    <input id="cpf" type="text" name="cpf" autocomplete="on" placeholder="CPF">
+                    <input id="email" type="email" name="e-mail" autocomplete="on" placeholder="E-mail">
+                    <input id="telefone" type="text" name="telefone" autocomplete="on" placeholder="Telefone">
+                </div>
+            </div>
+
+            <div id="divextrato">
+
+                <div>
+
+                    <table class="fixed_header table table-striped table-dark table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <th>Produto</th>
+                                <th>QT</th>
+                                <th>R$</th>
+                            </tr>
+
+                            <tr>
+                                <td>Batata frita Média</td>
+                                <td>1</td>
+                                <td>19,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Polenta</td>
+                                <td>1</td>
+                                <td>18,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Hambúrguer Recheado</td>
+                                <td>2</td>
+                                <td>44,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Cheddar</td>
+                                <td>2</td>
+                                <td>8,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Mussarela</td>
+                                <td>2</td>
+                                <td>8,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Sorvete</td>
+                                <td>3</td>
+                                <td>36,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Bolo no pote</td>
+                                <td>1</td>
+                                <td>8,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Energético</td>
+                                <td>2</td>
+                                <td>22,00</td>
+                            </tr>
+                            <tr>
+                                <td>Sucos Naturais</td>
+                                <td>2</td>
+                                <td>12,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Poção de Vida</td>
+                                <td>2</td>
+                                <td>34,00</td>
+                            </tr>
+                            <tr>
+                                <td>Whiskey JackDaniels</td>
+                                <td>1</td>
+                                <td>25,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+                <div id="divtotal">
+
+                    <form>
+
+                        <input id="total" type="text" name="total" autocomplete="on" placeholder="Total R$">
+
+                    </form>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr class="ok">
+
+        <form id="pagamento">
+            <h1>Forma de pagamento</h1>
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="dinheiro"> Dinheiro
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="debito"> Cartão de débito
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="credito"> Cartão de crédito
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="ticket"> Ticket
+        </form>
+
+        <hr class="ok">
+
+        <div class="group">
+
+            <div id="divtexto">
+                <p>
+                    <font size="4" style='font-weight:bold;'>Dividir Comanda</font>
+                </p>
+
+            </div>
+
+            <div id="divdividir">
+
+                <input id="dividir" type="number" name="dividir" placeholder="0">
+
+            </div>
+
+            <hr class="ok">
+
+            <div id="divsubtotal">
+
+                <form>
+
+                    <input id="subtotal" type="text" name="subtotal" autocomplete="on" placeholder="SubTotal R$">
+
+                </form>
+
+            </div>
+
+
+            <hr class="ok">
+
+            <div id="divfinalizar">
+                <form method="post" action="">
+
+                    <input id="finalizar" type="submit" name="finalizar" value="Finalizar">
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+
+</html>

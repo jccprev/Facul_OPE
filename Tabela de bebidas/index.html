@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cardapio de Bebidas</title>
+
+    <!-- Bootstrap 4.3.1 -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../Bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../Bootstrap/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav_color">
+
+    <a class="navbar-brand" href="../index.html">
+      <img id="logo" src="../IMG/Logo(Preto).png" alt="Logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+        <span><img id="icone" src="../IMG/expansor.png" alt="dropdown-menu"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      
+      
+      <ul class="navbar-nav mr-auto">  
+        <li>
+          <a class="nav-link" id="text_nav" href="../Tela Caixa/index.html">Caixa</a>
+        </li>
+
+        <li>
+          <a class="nav-link" id="text_nav" href="../Tela Pedidos/index.html">Pedidos</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Comandas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tela Abertura Comanda/index.html">Abrir Comandas</a>
+            <a class="dropdown-item" href="../Tela Mapa Comandas/index.html">Mapa de Comandas</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cardapios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tabela de jogos/index.html">Cardapio de Jogos</a>
+            <a class="dropdown-item" href="../Tabela de bebidas/index.html">Cardapio de Bebidas</a>
+            <a class="dropdown-item" href="../Tabela de comida/index.html">Cardapio de Comidas</a>
+          </div>
+        </li> 
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Gerenciamento
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tela de gerenciamento de estoque/index.html">Estoque</a>
+            <a class="dropdown-item" href="#">Usuarios</a>
+            <a class="dropdown-item" href="#">Historicos de Vendas</a>
+          </div>
+        </li> 
+
+      </ul>
+      
+      <span><a href="#" id="text_nav">Sair</a></span>
+
+    </div>
+  </nav>
+
+
+      <br>
+      <h1 class="display-4" id="cardapio_de_bebidas">Cardapio De Bebidas</h1>
+      <hr>
+      <br>
+
+    <div id="Div_tamanho_t">
+
+
+      <h2 id="cardapio_de_bebidas">Suco</h2>
+      
+            <table class="table table-bordered table-dark">
+                    <thead class="meio">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Sucos Naturais</td>
+                        <td>Sucos Naturais (Verificar sabores disponíveis)</td>
+                        <td>R$6,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Pink Lemonade</td>
+                        <td>---</td>
+                        <td>R$7,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Limonada Suiça</td>
+                        <td>---</td>
+                        <td>R$7,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+        
+                  <br>
+                  <br>
+                  <h2 id="cardapio_de_bebidas">Refrigerante</h2>
+
+                  <table class="table table-bordered table-dark ">
+                    <thead class="meio">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Refrigerante</td>
+                        <td>350ml (Verificar refrigerantes disponíveis)</td>
+                        <td>R$5,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Energético</td>
+                        <td>Red Bul</td>
+                        <td>R$11,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+                  <br>
+                  <br>
+                  <h2 id="cardapio_de_bebidas">Cerveja</h2>
+
+                  <table class="table table-bordered table-dark ">
+                    <thead class="meio">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Skol</td>
+                        <td>---</td>
+                        <td>R$11,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Budwiser</td>
+                        <td>---</td>
+                        <td>R$12,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Original</td>
+                        <td>---</td>
+                        <td>R$13,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Heineken</td>
+                        <td>---</td>
+                        <td>R$13,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Eisenbahn</td>
+                        <td>---</td>
+                        <td>R$12,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Skol Beats</td>
+                        <td>---</td>
+                        <td>R$10,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+                  <br>
+                  <br>
+                  <h2 id="cardapio_de_bebidas">Drink</h2>
+
+                  <table class="table table-bordered table-dark ">
+                    <thead class="meio">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="meio">
+                        <th scope="row">00</th>
+                        <td colspan="3">** Valores podem variar de acordo com a quantidade de frutas escolhidas.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mojito</td>
+                        <td>Drink de limão com rum, água com gás e leite</td>
+                        <td>R$18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>White Rússia</td>
+                        <td>Drink de licor de café com vodka e leite </td>
+                        <td>R$18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Gin e Tônica</td>
+                        <td>Combinação de tônica com gin e limão siciliano </td>
+                        <td>R$19,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Poção de Vida</td>
+                        <td>---</td>
+                        <td>R$17,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Poção de Mana</td>
+                        <td>---</td>
+                        <td>R$17,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Caipirinha</td>
+                        <td>1 Fruta **</td>
+                        <td>R$10,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Caipirosca</td>
+                        <td>1 Fruta **</td>
+                        <td>R$15,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Saquerinha</td>
+                        <td>1 Fruta **</td>
+                        <td>R$15,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Saquerinha com leite condençado</td>
+                        <td>1 Fruta **</td>
+                        <td>R$16,00</td>
+                      </tr>
+                    </tbody>
+                  </table>       
+                  
+                  <br>
+                  <br>
+                  <h2 id="cardapio_de_bebidas">Destilados </h2>
+
+                  <table class="table table-bordered table-dark ">
+                    <thead class="meio">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Valor Shot</th>
+                        <th scope="col">Valor Dose</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Whiskey Red Label</td>
+                        <td>---</td>
+                        <td>R$11,00</td>
+                        <td>R$21,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Whiskey Black Label</td>
+                        <td>---</td>
+                        <td>R$18,00</td>
+                        <td>R$35,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Whiskey JackDaniels</td>
+                        <td>---</td>
+                        <td>R$13,00</td>
+                        <td>R$25,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Whiskey Jack Daniels Honey</td>
+                        <td>---</td>
+                        <td>R$14,00</td>
+                        <td>R$26,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Vodka Absolut</td>
+                        <td>---</td>
+                        <td>R$12,00</td>
+                        <td>R$23,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Vodka Grey Goose </td>
+                        <td>---</td>
+                        <td>R$16,00</td>
+                        <td>R$30,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Tequila José Cuervo</td>
+                        <td>---</td>
+                        <td>R$11,00</td>
+                        <td>R$20,00</td>
+                      </tr>
+                    </tbody>
+                  </table> 
+
+    </div>
+    <br>
+    <br>
+          
+</body>
+</html> 

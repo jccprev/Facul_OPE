@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abertura de Comanda</title>
+
+    <!-- Bootstrap 4.3.1 -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../Bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../Bootstrap/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav_color">
+
+        <a class="navbar-brand" href="../index.html">
+            <img id="logo" src="../IMG/Logo(Preto).png" alt="Logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span><img id="icone" src="../IMG/expansor.png" alt="dropdown-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+            <ul class="navbar-nav mr-auto">
+                <li>
+                    <a class="nav-link" id="text_nav" href="../Tela Caixa/index.html">Caixa</a>
+                </li>
+
+                <li>
+                    <a class="nav-link" id="text_nav" href="../Tela Pedidos/index.html">Pedidos</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Comandas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Tela Abertura Comanda/index.html">Abrir Comandas</a>
+                        <a class="dropdown-item" href="../Tela Mapa Comandas/index.html">Mapa de Comandas</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Cardapios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Tabela de jogos/index.html">Cardapio de Jogos</a>
+                        <a class="dropdown-item" href="../Tabela de bebidas/index.html">Cardapio de Bebidas</a>
+                        <a class="dropdown-item" href="../Tabela de comida/index.html">Cardapio de Comidas</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Gerenciamento
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Tela de gerenciamento de estoque/index.html">Estoque</a>
+                        <a class="dropdown-item" href="#">Usuarios</a>
+                        <a class="dropdown-item" href="#">Historicos de
+                            Vendas</a>
+                    </div>
+                </li>
+
+            </ul>
+
+
+            <span><a href="#" id="text_nav">Sair</a></span>
+
+        </div>
+    </nav>
+
+    <br>
+    <h1 class="display-4" id="Abertura_Comanda">Abertura de Comanda</h1>
+
+    <div id="divcomanda" class="container">
+        <br>
+        <form>
+            <div class="form-row">
+                <div class="IDs_col">
+                    <input id="comandas2" list="xesque" name="comandas" placeholder="Comanda">
+                    <datalist id="xesque">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+                            <option>35</option>
+                            <option>36</option>
+                            <option>37</option>
+                            <option>38</option>
+                            <option>39</option>
+                            <option>40</option>
+                    </datalist>
+                    
+                </div>
+                <div class="IDs_col">
+                    <input type="text" class="IDs" placeholder="Mesa">
+                </div>
+                <div class="IDs_col">
+                    <input type="text" class="IDs" placeholder="Garçom">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="form-row">
+                <div class="IDs_col">
+                    <input type="text" class="IDs" placeholder="Nome">
+                </div>
+                <div class="IDs_col">
+                    <input type="text" class="IDs" placeholder="Sobrenome">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+                <div class="IDs_col">
+                    <input type="text" class="IDs" placeholder="ID Lanche">
+                </div>
+                <div class="IDs_col">
+                    <input type="number" class="IDs" placeholder="QT">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+                <div class="IDs_col">
+                    <input type="text" class="IDs" placeholder="ID Bebida">
+                </div>
+                <div class="IDs_col">
+                    <input type="number" class="IDs" placeholder="QT">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+                <div class="IDs_col">
+                    <input type="text" class="IDs" placeholder="ID Jogos">
+                    <div>
+                        <textarea rows="OBS" cols="OBS" placeholder="OBS" class="OBS"></textarea>
+                    </div>
+                </div>
+                <div class="IDs_col">
+                    <input type="text" class="IDs" placeholder="Nome do Jogo">
+                </div>
+                <div id="divextrato">
+                    <table class="fixed_header table-dark table-bordered">
+
+                            <tbody>
+
+                                <tr>
+                                    <th>Produto</th>
+                                    <th>QT</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Batata frita Média</td>
+                                    <td>1</td>
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td>X-Burguer</td>
+                                    <td>2</td>
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td>Polenta</td>
+                                    <td>1</td>
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td>Sucos Naturais</td>
+                                    <td>3</td>
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td>Skol Beats</td>
+                                    <td>5</td>
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td>Vodka Absolut</td>
+                                    <td>5</td>
+                                    
+                                </tr>
+                            </tbody>
+                            
+                            <br>
+                            
+                            
+                    </table>
+                </div>
+            </div>
+      
+            <button type="submit" class="btn btn-primary btn-sm">Salvar</button>
+            <button type="reset" class="btn btn-secondary btn-sm">Cancelar</button>
+
+        </form>
+        <br>
+    </div>
+
+    <br>
+
+</body>
+
+</html>

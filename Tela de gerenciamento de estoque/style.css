@@ -1,0 +1,64 @@
+/* #back1{
+    background: url(../IMG/fundo_2.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.5;
+} */
+
+
+/* Navbar */
+#icone{
+    height: 47px;
+    width: 49px;
+}
+#logo{
+    height: 65px;
+    width: 60px;
+}
+#nav_color{
+    background-color: black;
+    
+}
+#text_nav{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Be Vietnam', sans-serif;
+}
+#text_nav:hover{
+    color: rgb(198, 198, 221);
+}
+/* ------------ */
+
+#gerenciamento_de_estoque{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+
+#div_tb_estoque{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tb_estoque{
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+
+#bt_salvar{
+    position: absolute;
+    bottom: 8%;
+    right: 8%;    
+    color: white;
+    background-color: rgba(7, 82, 7, 0.781);
+    border-color: #82A193;
+}
+#bt_salvar:hover{
+    color: #fff;
+    background-color: black;
+    border-color: #6c757d;
+}

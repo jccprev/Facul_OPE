@@ -1,0 +1,261 @@
+/* Navbar */
+#icone{
+    height: 47px;
+    width: 49px;
+}
+#logo{
+    height: 65px;
+    width: 60px;
+}
+#nav_color{
+    background-color: black;
+    
+}
+#text_nav{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Be Vietnam', sans-serif;
+}
+#text_nav:hover{
+    color: rgb(198, 198, 221);
+}
+/* ------------ */
+
+#jaca{
+    background-color: rgba(0, 0, 0, 0.151);
+    width: 70%;
+}
+
+.ok{
+    background-color: rgba(0, 0, 0, 0.151);
+    width: 100%;  
+}
+
+#Caixa{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#div_caixa {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1350px;
+    height: 700px;
+    border-radius: 6px;
+}
+
+/* ------------------- */
+
+#divBusca{
+    position: relative;
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width: 292px;
+    height:35px;
+    margin-top: 10px;
+    margin-left: 12px;
+    float: left;  
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+   
+#btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+}
+   
+#divBusca img{
+    float: left;
+}
+
+#search{
+    width: 27px;
+    height: 27px;
+
+}
+
+#divmesa{
+    position:relative;
+    border-width:2px;
+    width:100px;
+    height: 100px;
+    float: left;
+    max-width: 10px;
+    
+}
+
+#mesa{
+    margin-left: 20px;
+    margin-top: 12px;
+    border-radius:7px;
+}
+
+#divinformacoes{
+    margin-left: 12px;
+    margin-right: auto;
+    border-radius:10px;
+    width: 477px;
+    height: 212px;
+    margin-top: 90px;
+}
+
+#divnome{
+    width: 477px;
+    height: 40px;
+}
+
+/* INPUT'S INFORMAÇÕES CLIENTE */
+
+#nome{
+    margin-left: 20px;
+    margin-top: 0px;
+    border-radius:7px;
+}
+
+#sobrenome{
+    margin-left: 20px;
+    margin-top: 0px;
+    border-radius:7px;
+}
+
+#cpf{
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius:7px;
+}
+
+#email{
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius:7px;
+}
+
+#telefone{
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius:7px;
+}
+
+
+
+/* FORMA DE PAGAMENTO */
+
+#pagamento{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+/* ------------------- */
+
+#divextrato{
+    float: right;
+    margin-left: auto;
+    margin-right: 12px;
+    border-radius:10px;
+    width: 400px;
+    height: 500px;
+    margin-top: -280px;
+}
+
+.fixed_header{
+    width: 400px;
+    table-layout: fixed;;
+    border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 518px;
+}
+
+.fixed_header thead tr {
+   display: block;
+}
+
+.fixed_header thead {
+  background: black;
+  color:#fff;
+}
+
+.fixed_header th, .fixed_header td {
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+}
+
+#divtotal{
+    text-align: right;
+}
+
+#total{
+    width: 210px;
+    text-align: left;
+    border-radius: 6px;
+}
+
+#divtexto{
+    text-align: left;
+    margin-left: 10px;
+}
+
+#divdividir{
+    text-align: left;
+    margin-left: 10px;
+    border-radius:10px;
+    width: 200px;
+}
+
+#dividir{
+    width: 65px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#divsubtotal{
+    text-align: left;
+    margin-left: 10px;
+}
+
+#subtotal{
+    width: 100px;
+    text-align: left;
+    border-radius: 6px;
+}
+
+#divfinalizar{
+    text-align: left;
+    margin-left: 10px;
+}
+
+#finalizar{
+    background-color: #4CAF50;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+

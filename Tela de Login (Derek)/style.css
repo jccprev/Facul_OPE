@@ -1,0 +1,83 @@
+body{
+
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: url("../IMG/fundo_2.jpg");
+
+}
+
+.box h1{
+
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+.box{
+
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(221, 221, 221);
+    text-align: center;
+    opacity: 0.95;
+    border-radius: 23px;
+
+}
+
+.box input[type="user"],.box input[type="password"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    color: black;
+    border: 1.5px solid black;
+    padding: 10px 40px;
+    width: 200px;
+    height: 35px;
+    outline: none;
+    transition: 0.30s;
+    font-size: 20px;
+    border-radius:20px;
+    padding: initial;
+
+}
+
+.box input[type="user"]:focus,.box input[type="password"]:focus{
+
+    width: 280px;
+    border-color: green;
+    background-color: white;
+}
+
+.box input[type="submit"]{
+
+    border: 0;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    outline: none;
+    transition: 0.30s;
+    font-size: 14px;
+    border-radius:20px;
+    cursor: pointer;
+
+}
+
+.box input[type="submit"]:hover{
+
+    background: green;
+
+    
+
+}

@@ -1,0 +1,61 @@
+/* body{
+    background-image: url(../IMG/fundo_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+} */
+
+/* Navbar */
+#icone{
+    height: 47px;
+    width: 49px;
+}
+#logo{
+    height: 65px;
+    width: 60px;
+}
+
+#nav_color{
+    background-color: black;
+    
+}
+
+#text_nav{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+#text_nav:hover{
+    color: rgb(198, 198, 221);
+}
+/* ------------ */
+
+#cardapio_de_jogos{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+hr{
+    background-color: rgba(0, 0, 0, 0.151);
+    width: 70%;
+}
+
+.meio{
+    text-align: center;
+}
+
+.tb_jobos{
+    border: 50px;
+    border-radius: 50px;
+}
+
+#Div_tamanho_t{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+

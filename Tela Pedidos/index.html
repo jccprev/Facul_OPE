@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cardapio de Comidas</title>
+
+    <!-- Bootstrap 4.3.1 -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../Bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../Bootstrap/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav_color">
+
+    <a class="navbar-brand" href="../index.html">
+      <img id="logo" src="../IMG/Logo(Preto).png" alt="Logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+      <span><img id="icone" src="../IMG/expansor.png" alt="dropdown-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    
+    
+    <ul class="navbar-nav mr-auto">  
+        <li>
+          <a class="nav-link" id="text_nav" href="../Tela Caixa/index.html">Caixa</a>
+        </li>
+
+        <li>
+          <a class="nav-link" id="text_nav" href="../Tela Pedidos/index.html">Pedidos</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Comandas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tela Abertura Comanda/index.html">Abrir Comandas</a>
+            <a class="dropdown-item" href="../Tela Mapa Comandas/index.html">Mapa de Comandas</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cardapios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tabela de jogos/index.html">Cardapio de Jogos</a>
+            <a class="dropdown-item" href="../Tabela de bebidas/index.html">Cardapio de Bebidas</a>
+            <a class="dropdown-item" href="../Tabela de comida/index.html">Cardapio de Comidas</a>
+          </div>
+        </li> 
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="text_nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Gerenciamento
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Tela de gerenciamento de estoque/index.html">Estoque</a>
+            <a class="dropdown-item" href="#">Usuarios</a>
+            <a class="dropdown-item" href="#">Historicos de Vendas</a>
+          </div>
+        </li> 
+
+      </ul>
+      
+      <span><a href="#" id="text_nav">Sair</a></span>
+
+    </div>
+  </nav>
+
+
+      <br>
+      <h1 class="display-4" id="Pedidos">Pedidos</h1>
+      <hr>
+      <br>
+
+    <div id="Div_tamanho_t">
+
+      <div class="card text-white bg-dark auto_card">
+        <div class="card-header">
+            <table class="tb_titulo_card" >
+                <tbody >
+                  <tr>
+                    <td>N° 18</td>
+                    <td id="espaco">|</td>
+                    <td>Mesa: 20</td>
+                  </tr>
+                </tbody>
+             </table>      
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Pedido da mesa:</h5>
+          <p class="card-text"> X-egg; Frango Empanado; Bolo no pote
+            <br><hr>
+            Adicionais: Hambúrguer; Cheddar
+            <br><hr>
+            OSB: Tirar o ovo do X-egg.
+          </p>
+          <a href="#" class="btn btn-primary">Finalizar Pedido</a>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark auto_card">
+        <div class="card-header">
+            <table class="tb_titulo_card" >
+                <tbody >
+                  <tr>
+                    <td>N° 10</td>
+                    <td id="espaco">|</td>
+                    <td>Mesa: 13</td>
+                  </tr>
+                </tbody>
+             </table>      
+        </div>
+        
+        <div class="card-body">
+          <h5 class="card-title">Pedido da mesa:</h5>
+          <p class="card-text"> X-Bacon; Batata Frita Média
+            <br><hr>
+            Adicionais: Maionese; Cheddar; Mussarela
+            <br><hr>
+            OSB: Mussarela derretida na Batata.
+          </p>
+          <a href="#" class="btn btn-primary">Finalizar Pedido</a>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark auto_card">
+          <div class="card-header">
+              <table class="tb_titulo_card" >
+                  <tbody >
+                    <tr>
+                      <td>N° 20</td>
+                      <td id="espaco">|</td>
+                      <td>Mesa: 9</td>
+                    </tr>
+                  </tbody>
+               </table>      
+          </div>
+  
+          <div class="card-body">
+            <h5 class="card-title">Pedido da mesa:</h5>
+            <p class="card-text"> Petit Gâteau
+              <br><hr>
+              Adicionais: 
+              <br><hr>
+              OSB: 2x.
+            </p>
+            <a href="#" class="btn btn-primary">Finalizar Pedido</a>
+          </div>
+        </div>
+
+      <div class="card text-white bg-dark auto_card">
+
+        <div class="card-header">
+                <table class="tb_titulo_card" >
+                    <tbody >
+                      <tr>
+                        <td>N° 8</td>
+                        <td id="espaco">|</td>
+                        <td>Mesa: 16</td>
+                      </tr>
+                    </tbody>
+                 </table>      
+            </div>
+    
+            <div class="card-body">
+              <h5 class="card-title">Pedido da mesa:</h5>
+              <p class="card-text"> Hambúrguer Recheado; Petit Gâteau
+                <br><hr>
+                Adicionais: Maionese; Bacon; Catupiry
+                <br><hr>
+                OSB: 
+              </p>
+              <a href="#" class="btn btn-primary">Finalizar Pedido</a>
+            </div>
+        </div>  
+
+      
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+      
+</body>
+</html> 
